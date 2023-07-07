@@ -3,7 +3,6 @@ import Image from "next/image";
 import { useState } from "react";
 
 import ImageMobil from "../../public/assets/mobil.png";
-import ItemMobil from "../cards/productCards/ItemMobil";
 import hmlogo from "../../public/assets/LogoHome.png";
 import usrlogo from "../../public/assets/User.png";
 import Navbar from "./navbar";
@@ -91,7 +90,7 @@ const ListPageMobil: React.FunctionComponent<IListPageMobilProps> = (props) => {
           </ul>
         </div>
 
-        <div className="container-item">
+        {/* <div className="container-item">
           {filteredItems.map((item) => (
             <ItemMobil
               key={item.lokasi}
@@ -101,7 +100,7 @@ const ListPageMobil: React.FunctionComponent<IListPageMobilProps> = (props) => {
               harga={item.harga}
             />
           ))}
-        </div>
+        </div> */}
       </div>
     </div>
   );
