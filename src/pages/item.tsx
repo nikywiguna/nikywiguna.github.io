@@ -11,7 +11,7 @@ import axios from "axios";
 import ImageMobil from "../../public/assets/mobil.png";
 
 //local component
-import ItemMobil from "../cards/productCards/ItemMobil";
+
 import Link from "next/link";
 import { Product } from "../types";
 
